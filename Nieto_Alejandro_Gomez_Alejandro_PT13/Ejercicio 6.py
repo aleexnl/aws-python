@@ -1,8 +1,11 @@
-chains = ["Buenos dias ", "Buenas tardes ", "Buenas noches ", "Saludos, "]
-namelst = []
-name = str(input("Introduce tu nombre: "))
-fname = str(input("Introduce tu apellido: "))
-sname = str(input("Introduce la inicial de tu segundo nombre: "))
-namelst.append(name), namelst.append(fname), namelst.append(sname)
-print(namelst)
-print(namelst[0], namelst[2], ".", namelst[1])
+qty = int(input("Introduce la cantidad de datos a introducir: "))
+data = []
+for i in range(qty):
+    tmpdata = []
+    name = str(input("Introduce tu nombre: "))
+    sname = str(input("Introduce tu apellido: "))
+    iname = str(input("Introduce tu inicial del segundo nombre: "))
+    tmpdata.append(sname), tmpdata.append(name), tmpdata.append(iname)
+    data.append(tmpdata)
+for j in range(len(data)):
+    print(data[j][1], data[j][2], ".", data[j][0])
