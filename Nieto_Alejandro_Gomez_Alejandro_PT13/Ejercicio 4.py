@@ -22,16 +22,16 @@ print("Suma de todos los valores: ", total)  # Mostramos el total de la suma
 print("Media de los valores: ", total / len(lst))  # Hacemos el calculo de la media y lo mostramos
 '''Este bucle hara el factorial de cada numero y lo apendara una lista, de tal manera que cuando acabe el bucle este lo
 que hara es mostrar todos los factoriales de cada numero.'''
-for k in range(len(lst)):
-    factorynum = [lst[k]]
-    timer = lst[k]
-    for l in range(lst[k]):
-        if timer - 1 == 0:
-            break
-        factorynum[0] = factorynum[0] * (timer - 1)
-        timer -= 1
-    factory.append(factorynum[0])
-print("Factoriales de cada numero: ", factory)
+for k in range(len(lst)):  # Bucle basado segun la largada de la lista
+    factorynum = [lst[k]]  # Asignamos valor
+    timer = lst[k]  # Asignamos valor
+    for l in range(lst[k]):  # Bucle sobre la posicion de la lista
+        if timer - 1 == 0:  # Si el valor es 0
+            break  # Rompe el bucle
+        factorynum[0] = factorynum[0] * (timer - 1)  # Crea el factorial
+        timer -= 1  # Resta uno al valor
+    factory.append(factorynum[0])  # Añade el factorial a la lista de factoriales
+print("Factoriales de cada numero: ", factory)  # Muestra los factoriales
 
 '''ESTA PARTE DE CODIGO HACE LA DESCOMPOSICION FACTORIAL DE CADA NUMERO EN LA LISTA Y LUEGO AL MUESTRA. NO FUNCIONA CON
 EL 0, 1 Y 3'''
