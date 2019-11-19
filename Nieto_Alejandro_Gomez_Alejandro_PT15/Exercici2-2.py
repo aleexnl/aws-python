@@ -10,7 +10,7 @@ nadal = (2018, 12, 25)
 a2, m2, d2 = nadal
 # Creem una variable on guardarem el dia de nadal mes la suma de las resta dels dias del mes menys la data actual
 suma = d2 + (dias_mes[m-1] -d)
-# Finalment farem un bucle on guardarem en una variable la quantiat de dias que queden fins nadal i els printarem
+# Finalment farem un bucle on guardarem en una variable la quantiat de dias que queden fins nadal i els printarem .
 for i in range(m, m2-1):
     suma = suma + dias_mes[i]
 print("El dies entre avui i nadal són:", suma)
