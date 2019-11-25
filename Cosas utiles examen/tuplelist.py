@@ -13,3 +13,20 @@ lista2 = ['Hola', 'Adios', 'Pene', 'Coño']
 
 for i in lista2:
     print(i, end=' ')
+
+''' EJEMPLO FOR ANIDADO '''
+
+a = int(input("Amplada: "))
+h = int(input("Alçada: "))
+
+for tmph in range(h):
+    for tmpa in range(a):
+        if tmph == h-1 or tmph == 0:
+            print("*", end="")
+
+        else :
+            if tmpa == a-1 or tmpa == 0:
+                print("*", end="")
+            else :
+                   print(" ", end="")
+    print("")
