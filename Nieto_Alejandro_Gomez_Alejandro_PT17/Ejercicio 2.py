@@ -26,7 +26,7 @@ for i in frase.lower():
 diccionario2=dict.fromkeys(lista)
 
 ''' Y por ultimo hacemos lo mismo que en el ejercicio 2 para que se vayan añadiendo a cada clave su valor
-(en este caso es el numero de veces que aparece esa letra en la frase)'''
+(en este caso es el numero de veces que aparece esa letra en la frase )'''
 for b in diccionario2:
    diccionario2[b]=lista.count(b)
 print(diccionario2) # Y por ultimo lo printamos
