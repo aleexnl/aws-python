@@ -17,4 +17,5 @@ for i in range(10):
     for j in range(llistaComptadorNumerosAleatoris[i]):
         print("*", end="")
 
+
     print() # Este print de aqui lo que hara es que ponga una cosa encima de otra
