@@ -1,9 +1,9 @@
 '''Definir un histograma procedimient() que tomi una llista de números enters i
-imprimeixi un histograma en la pantalla.'''
+imprimeixi un histograma en la pantalla'''
 
 #creamos una lista para almacenar los numeros que de el usuario.
 lista = []
-#definimos una funcion para que coja cada numero de la lista, y lo muestre con asteriscos.
+#definimos una funcion para que coja cada numero de la lista y lo muestre con asteriscos.
 def histograma(asteriscos):
     for num in asteriscos:#multiplicamos el numero de la lista por los asteriscos
         print("*" * num)

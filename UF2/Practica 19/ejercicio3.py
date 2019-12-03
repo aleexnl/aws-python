@@ -1,5 +1,5 @@
 '''Escriure el codi de la funció que imprimeixi per pantalla tots els divisors del
-número que rep com argument.'''
+número que rep com argument'''
 
 #definimos una funcion para calcular todos los divisores de un numero y los imprimimos.
 def divisores(num):

@@ -16,6 +16,6 @@ def multip(numeros):
     for i in numeros:#por cada numero dentro de numeros
         multiplicacio = multiplicacio * i #lo multiplicamos por multiplicacio y lo guardamos
     return multiplicacio
-#ahora vamos a imprimir las dos funciones sustituyendo los valores por los que hay dentro de lista.
+#ahora vamos a imprimir las dos funciones, sustituyendo los valores por los que hay dentro de lista.
 print(sum(lista))
 print(multip(lista))
