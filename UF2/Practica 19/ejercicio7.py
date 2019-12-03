@@ -1,3 +1,7 @@
+'''Escriure una funcio sum() i una funció multip() que sumen i multipliquin
+respectivament tots els números d’una llista. Per exemple: sum([1,2,3,4]) hauria de
+tornar 10 i multip([1,2,3,4]) hauria de tornar 24.'''
+
 #creamos una lista
 lista = [1,2,3,4]
 #definimos la funcion de suma en la cual va a coger los numeros que hay en lista y los va a ir sumando dentro de suma.
