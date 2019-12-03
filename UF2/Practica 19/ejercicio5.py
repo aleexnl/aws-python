@@ -1,5 +1,5 @@
 '''Definir un histograma procedimient() que tomi una llista de números enters i
-imprimeixi un histograma en la pantalla'''
+imprimeixi un histograma en la pantalla.'''
 
 #creamos una lista para almacenar los numeros que de el usuario.
 lista = []
