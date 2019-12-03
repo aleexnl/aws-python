@@ -2,7 +2,7 @@
 lista = []
 #definimos una funcion para que coja cada numero de la lista, y lo muestre con asteriscos.
 def histograma(asteriscos):
-    for num in asteriscos:
+    for num in asteriscos:#multiplicamos el numero de la lista por los asteriscos
         print("*" * num)
 #Le pedimos al usauario 3 numeros para añadir a la lista.
 for numeros in range(3):

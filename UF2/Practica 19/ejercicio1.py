@@ -1,6 +1,6 @@
 #definimos una funcion para calcular el cuadrado de un numero y devolvemos el cuadrado.
 def cuadrado_num(num):
-    cuadrado = num **2
+    cuadrado = num **2 #elevamos el numero al cuadrado
     return cuadrado
 #pedimos al usuario un numero.
 num2 = int(input('numero'))
