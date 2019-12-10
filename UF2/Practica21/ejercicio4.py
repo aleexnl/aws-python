@@ -1,7 +1,3 @@
-# 4.Dissenya una funció que rebi dos llistes i retorni els elements comuns aambdós, sense repetir cap (intersecció de
-# conjunts).Exemple: si rep les llistes [1, 2, 1] i [2, 3, 2, 4], retornarà la llista [2].
-
-
 def comparador(l1, l2):
     duplicated = []
     for k in range(len(l1)):
