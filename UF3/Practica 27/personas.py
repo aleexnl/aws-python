@@ -1,0 +1,25 @@
+archivo = open("personas.txt","w")
+def insertarpersonas():
+    llista = []
+    nom = input("Escribe tu nombre = ")
+    llista.append(nom)
+    archivo.write("Nombre es  = " + nom)
+    cognoms = input("Escribe tu apellido = ")
+    llista.append(cognoms)
+    archivo.write("\nApellido es = " + cognoms)
+    nif = input("Escirbe tu nif = ")
+    llista.append(nif)
+    archivo.write("\nNif es = " + nif)
+    edat = input("Esbribe tu edad = ")
+    llista.append(edat)
+    archivo.write("\nEdad es = "+edat)
+    alcada = input("Esribe tu alcada= ")
+    llista.append(alcada)
+    archivo.write("\nAlcada es = " + alcada)
+    opcion = input("Quieres seguir insretando personas si o no = ")
+    while opcion == 'si':
+        archivo.write("\n")
+        print(insertarpersonas())
+        break
+insertarpersonas()
+archivo.close()
