@@ -1,15 +1,14 @@
 archivo = open("ejercicio4.txt", "r")
-lineas = 1
-palabra = 1
+lineas = 0
+palabra = 0
 caracters = 0
 for i in archivo.readlines():
-    lista = i
-    lineas += i.lineas
-    caracters += caracters
-    texto = i.split()
+    lineas += 1
+    caracters += len(i)
+    texto =i.split()
     palabra += len(texto)
-print(lineas)
-print(palabra)
-print(caracters)
+print("Tiene", lineas ,"lineas")
+print("Tiene",palabra, "Palabras")
+print("Tiene",caracters, "Caracteres")
 archivo.close()
 
