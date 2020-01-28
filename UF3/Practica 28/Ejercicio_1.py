@@ -1,4 +1,4 @@
-''' Este try lo qu ehace es abrir el comprobar que el archivo existe. Si existe simplemente se cerrará y listo.
+''' Este try lo que hace es abrir y comprobar que el archivo existe. Si existe simplemente se cerrará y listo.
  En el caso de que no existiera el archivo se crearia de 0 y se le añadirian lineas para evitar que este vacio.
  Al final del try se cierra el archivo para perder la posición del puntero.'''
 
