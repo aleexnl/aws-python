@@ -7,6 +7,6 @@ if linea != []: # Si la lista no esta vacia.
         for i in letra: # Para  cada letra.
             valor = (ord(i) + 13) % 26 # Creamos una variable que utilizaremos para codificar el texto.
             file2.write(chr(valor)) # Escribimos en el archivo destino, el texto codificado.
-file.close() # Cerramos los ficheros.
+file.close()  # Cerramos los ficheros.
 file2.close()
 
